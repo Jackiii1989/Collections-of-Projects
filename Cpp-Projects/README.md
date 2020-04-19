@@ -14,10 +14,20 @@ The TCP- Client connects and sends some text to the server, where it then expect
 
 ## UDP-WinSocket-App
 
+UDP connection is established, where the client sends datagrams to the server. oNEThe server checks if the packages are duplicate or cut off. Only one dierction of the communication is implemented. from client to Server.  Here we are testing how many packages are lost, how is the order packages that have been sent and if there a timeout is occuring due to the latency of the network. The server has a timeout configured of 3 seconds. The Winsock framework has been used fro this project. For encoding the data, a modified TLV-protocol has been used, where the fields are tag, length and value. Instead of a tag the total number of packages have been used instead. 
+The package size 8 bytes:
+* 2 bytes for the number of packages
+* 2 bytes for current number of the package 
+* 4 for data. 
 
+Sadly, the overhead off this approach is 50%.
 
 ### TCP Simple-TCP-Server
 
+A class is made to encapsulated the members and the library. For the timing the application the clock() function of the library <ctime> has been used. the server class checks if the recived length is 8 bytes and if the packages are duplicate dependin on the current number of the package 
+
 
 ### TCP Simple-TCP-Client
+
+The Client just connects to the server and send the packages to the server.
 
