@@ -44,9 +44,7 @@ as elements for Path, "uart" as file name and "pdf" as extension.
 
 ## Sorting-Algoritms-Comparison
 
-Compares sorting algorithms between STL sort library, quick sort, and an implementation of linear sort. Linear sorting is interesting as it has time time complexity of O(n), athouhg the trade-off is it consumes more memory and therefore needs to be limited for certain range numbers. 
+Compares sorting algorithms between STL sort library, quick sort, and an implementation of linear sort. Linear sorting is interesting as it has time time complexity of O(n), athouhg the trade-off is it consumes more memory and therefore needs to be limited for certain range numbers. Results:
 
-Results:
-![Bar Chart of the sorting algorithms](./Sorting-Algoritms-Comparison/Bar%20Chart.PNG)
 
 <img srd="./Sorting-Algoritms-Comparison/Bar%20Chart.png" width="200" >
