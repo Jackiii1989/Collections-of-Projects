@@ -49,3 +49,4 @@ Compares sorting algorithms between STL sort library, quick sort, and an impleme
 Results:
 ![Bar Chart of the sorting algorithms](./Sorting-Algoritms-Comparison/Bar%20Chart.PNG)
 
+<img srd="./Sorting-Algoritms-Comparison/Bar%20Chart.png" width="200" >
