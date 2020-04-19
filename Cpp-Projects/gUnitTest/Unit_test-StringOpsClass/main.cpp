@@ -1,5 +1,5 @@
 #include <iostream>
-#include "gtest/gtest.h"
+#include "gtest/gtest.h" // Note: add google test headers to your Project-Settings!
 
 using namespace std;
 
