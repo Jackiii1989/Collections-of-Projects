@@ -51,3 +51,14 @@ Compares sorting algorithms between STL sort library, quick sort, and implementa
 ## JSONWritter
 
 The JSon Writer gets an object and it converts it to a JSON format. The Implementation of the JSONWritter is realized with a __variadic template__. Meaning that template functions can accept different numbers of parameters. It can either accept one or many Persons objects and par Combination of key/value pair.
+
+
+## Comparison-Of-Sequecial-and-Parallel-Means
+
+A function that culculates various mean values(arithmetical, geometric, harmonic, quadratic) has been implemnted in sequence and parallel execution. The program generates 100000000 numbers and saves it in the array, where the various means values are calculated. The function laso compares the speed up between the both parallel and sequencial implementation. Below is the result:
+
+<img src=".//Comparison-Of-Sequecial-and-Parallel-Means/Image.png" width="650" >
+
+
+
+
