@@ -33,7 +33,14 @@ The Client just connects to the server and send the packages to the server.
 
 ## gUnitTest/Unit_test-StringOpsClass
 
-Unit test for the classs StringOps with google framework. The test checks two functions AnalyseString() and CrackUncPath() from the StringOps class. The test id shuffled and executed randomly four times.
+Unit test for the classs StringOps with google framework. The test checks two functions AnalyseString() and CrackUncPath() from the StringOps class. The test is shuffled and executed randomly four times.
+
+* The method AnalysisString(): processes the given string and returns the number of strings characters, numbers and other special characters(²³{[]}|µ@€~) back.
+
+* The method CrackUncPath(): breaks down a UNC path into its components.
+Example: The path\\Roadrunner\shared\Datasheets\Specs\2017\uart.pdf --> provides "Roadrunner" as hostname, "shared" as sharefolder, "Datasheets", "Specs", "2017"
+as elements for Path, "uart" as file name and "pdf" as extension. 
+
 
 
 
