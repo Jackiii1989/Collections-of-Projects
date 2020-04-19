@@ -31,3 +31,9 @@ A class is made to encapsulated the members and the library. For the timing the 
 
 The Client just connects to the server and send the packages to the server.
 
+## gUnitTest/Unit_test-StringOpsClass
+
+Unit test for the classs StringOps with google framework. The test checks two functions AnalyseString() and CrackUncPath() from the StringOps class. The test id shuffled and executed randomly four times.
+
+
+
