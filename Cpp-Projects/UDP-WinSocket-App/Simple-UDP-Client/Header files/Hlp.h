@@ -21,10 +21,10 @@ class Hlp {
 
 public:
 
-// -----------------------------------------------------------
-// print a windows error as human readable string 
-// usage:  cout << "Error: " << Hlp::ErrMsg(GetLastError()) << endl;
-static std::string ErrMsg(DWORD LastError);
+	// -----------------------------------------------------------
+	// print a windows error as human readable string
+	// usage:  cout << "Error: " << Hlp::ErrMsg(GetLastError()) << endl;
+	static std::string ErrMsg(DWORD LastError);
 
 };
 
@@ -33,8 +33,7 @@ static std::string ErrMsg(DWORD LastError);
 // With this pragma you can mark positions in your code where you have to do something.
 // On each Rebuild-All your compiler will remind you about them (ouput window).
 // Simple double-click on the generated warnings and you are back at the position.
-// 
-// Usage: #pragma TODO(Insert error handling!)
+//
 
 #define todo_impl2(CodeLine) #CodeLine
 #define todo_impl(CodeLine)  todo_impl2(CodeLine)

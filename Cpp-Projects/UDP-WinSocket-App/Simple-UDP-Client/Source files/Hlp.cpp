@@ -1,6 +1,6 @@
+#include "Hlp.h"
 // -----------------------------------------------------------
 // Implementation of simple helper functions
-// SEN4, Hagenberg
 // -----------------------------------------------------------
 
 #include "Hlp.h"
@@ -18,13 +18,13 @@ std::string Hlp::ErrMsg(DWORD LastError) {
 		0,
 		LastError,
 		MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-		(LPTSTR) &lpMsgBuf,
+		(LPTSTR)&lpMsgBuf,
 		0,
 		0
-		);
-	   std::string ErrStr(static_cast<char *>(lpMsgBuf));
-	   // Free the buffer.
-	   LocalFree( lpMsgBuf );
+	);
+	std::string ErrStr(static_cast<char *>(lpMsgBuf));
+	// Free the buffer.
+	LocalFree(lpMsgBuf);
 
-	   return ErrStr;
+	return ErrStr;
 }
