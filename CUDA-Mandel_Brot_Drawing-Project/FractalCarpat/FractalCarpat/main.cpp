@@ -1,5 +1,4 @@
 
-//  Creator: Aljosa Klajderic 
 // Creation Date: 3.2 2019
 //
 
